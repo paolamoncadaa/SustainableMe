@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		4F419E8024BF4B3A00D38D6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F419E7F24BF4B3A00D38D6A /* AppDelegate.swift */; };
 		4F419E8224BF4B3A00D38D6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F419E8124BF4B3A00D38D6A /* SceneDelegate.swift */; };
-		4F419E8424BF4B3A00D38D6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F419E8324BF4B3A00D38D6A /* ViewController.swift */; };
 		4F419E8724BF4B3A00D38D6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F419E8524BF4B3A00D38D6A /* Main.storyboard */; };
 		4F419E8A24BF4B3A00D38D6A /* SustainableMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F419E8824BF4B3A00D38D6A /* SustainableMe.xcdatamodeld */; };
 		4F419E8C24BF4B3E00D38D6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F419E8B24BF4B3E00D38D6A /* Assets.xcassets */; };
 		4F419E8F24BF4B3E00D38D6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F419E8D24BF4B3E00D38D6A /* LaunchScreen.storyboard */; };
 		4F419E9A24BF4B3E00D38D6A /* SustainableMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F419E9924BF4B3E00D38D6A /* SustainableMeTests.swift */; };
 		4F419EA524BF4B3E00D38D6A /* SustainableMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F419EA424BF4B3E00D38D6A /* SustainableMeUITests.swift */; };
+		4F419EB524BF796900D38D6A /* howItWorks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F419EB424BF796900D38D6A /* howItWorks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 		4F419E7C24BF4B3A00D38D6A /* SustainableMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SustainableMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F419E7F24BF4B3A00D38D6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F419E8124BF4B3A00D38D6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4F419E8324BF4B3A00D38D6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4F419E8624BF4B3A00D38D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F419E8924BF4B3A00D38D6A /* SustainableMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SustainableMe.xcdatamodel; sourceTree = "<group>"; };
 		4F419E8B24BF4B3E00D38D6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		4F419EA024BF4B3E00D38D6A /* SustainableMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SustainableMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F419EA424BF4B3E00D38D6A /* SustainableMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SustainableMeUITests.swift; sourceTree = "<group>"; };
 		4F419EA624BF4B3E00D38D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F419EB424BF796900D38D6A /* howItWorks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = howItWorks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +103,12 @@
 			children = (
 				4F419E7F24BF4B3A00D38D6A /* AppDelegate.swift */,
 				4F419E8124BF4B3A00D38D6A /* SceneDelegate.swift */,
-				4F419E8324BF4B3A00D38D6A /* ViewController.swift */,
 				4F419E8524BF4B3A00D38D6A /* Main.storyboard */,
 				4F419E8B24BF4B3E00D38D6A /* Assets.xcassets */,
 				4F419E8D24BF4B3E00D38D6A /* LaunchScreen.storyboard */,
 				4F419E9024BF4B3E00D38D6A /* Info.plist */,
 				4F419E8824BF4B3A00D38D6A /* SustainableMe.xcdatamodeld */,
+				4F419EB424BF796900D38D6A /* howItWorks.swift */,
 			);
 			path = SustainableMe;
 			sourceTree = "<group>";
@@ -262,9 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F419E8424BF4B3A00D38D6A /* ViewController.swift in Sources */,
 				4F419E8024BF4B3A00D38D6A /* AppDelegate.swift in Sources */,
 				4F419E8224BF4B3A00D38D6A /* SceneDelegate.swift in Sources */,
+				4F419EB524BF796900D38D6A /* howItWorks.swift in Sources */,
 				4F419E8A24BF4B3A00D38D6A /* SustainableMe.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
