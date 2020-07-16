@@ -9,15 +9,50 @@
 import UIKit
 
 class fourthTableViewController: UITableViewController {
-
+    
+    @IBAction func saveWaterTapped(_ sender: UISwitch) {
+    }
+    
+    @IBAction func commuteTapped(_ sender: UISwitch) {
+    }
+    
+    @IBAction func localFoodtapped(_ sender: UISwitch) {
+    }
+    
+    @IBAction func bigLoadTapped(_ sender: UISwitch) {
+    }
+    
+    @IBAction func cookTapped(_ sender: UISwitch) {
+    }
+    @IBAction func showerTapped(_ sender: UISwitch) {
+    }
+    
+    @IBAction func carpoolTapped(_ sender: UISwitch) {
+    }
+    
+    @IBAction func lightsTapped(_ sender: UISwitch) {
+    }
+    
+    @IBAction func paperNotesTapped(_ sender: UISwitch) {
+    }
+    
+    @IBAction func waterBottleTapped(_ sender: UISwitch) {
+    }
+    
+    @IBAction func reusableBagTapped(_ sender: UISwitch) {
+    }
+    
+    @IBAction func airLaundryTapped(_ sender: UISwitch) {
+    }
+    
+    
+    @IBAction func doneButtonTapped(_ sender: UIBarButtonItem) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
 
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
 
     // MARK: - Table view data source
