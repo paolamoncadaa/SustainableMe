@@ -21,7 +21,6 @@
 		4F419E8F24BF4B3E00D38D6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F419E8D24BF4B3E00D38D6A /* LaunchScreen.storyboard */; };
 		4F419E9A24BF4B3E00D38D6A /* SustainableMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F419E9924BF4B3E00D38D6A /* SustainableMeTests.swift */; };
 		4F419EA524BF4B3E00D38D6A /* SustainableMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F419EA424BF4B3E00D38D6A /* SustainableMeUITests.swift */; };
-		4F419EB524BF796900D38D6A /* howItWorks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F419EB424BF796900D38D6A /* howItWorks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +61,6 @@
 		4F419EA024BF4B3E00D38D6A /* SustainableMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SustainableMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F419EA424BF4B3E00D38D6A /* SustainableMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SustainableMeUITests.swift; sourceTree = "<group>"; };
 		4F419EA624BF4B3E00D38D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F419EB424BF796900D38D6A /* howItWorks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = howItWorks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +118,6 @@
 				4F419E8D24BF4B3E00D38D6A /* LaunchScreen.storyboard */,
 				4F419E9024BF4B3E00D38D6A /* Info.plist */,
 				4F419E8824BF4B3A00D38D6A /* SustainableMe.xcdatamodeld */,
-				4F419EB424BF796900D38D6A /* howItWorks.swift */,
 				0702171B24BFFC2A008EEC54 /* firstTableViewController.swift */,
 				0702171D24BFFD3E008EEC54 /* secondTableViewController.swift */,
 				0702171F24BFFD61008EEC54 /* thirdTableViewController.swift */,
@@ -288,7 +285,6 @@
 				0702171C24BFFC2A008EEC54 /* firstTableViewController.swift in Sources */,
 				4F419E8224BF4B3A00D38D6A /* SceneDelegate.swift in Sources */,
 				0702171E24BFFD3E008EEC54 /* secondTableViewController.swift in Sources */,
-				4F419EB524BF796900D38D6A /* howItWorks.swift in Sources */,
 				4F419E8A24BF4B3A00D38D6A /* SustainableMe.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

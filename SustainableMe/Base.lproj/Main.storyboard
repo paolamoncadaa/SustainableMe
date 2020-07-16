@@ -153,10 +153,6 @@
                                 <color key="textColor" red="0.78291583149999999" green="0.66640941259999997" blue="0.50524976229999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sustainability.gif" translatesAutoresizingMaskIntoConstraints="NO" id="1fW-XQ-PlB">
-                                <rect key="frame" x="76" y="601" width="262" height="158"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2vl-Ob-Ueu">
                                 <rect key="frame" x="76" y="200" width="312" height="408"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -173,6 +169,10 @@
                                 <color key="textColor" red="0.1912565786542646" green="0.31707415798445604" blue="0.16722126093512166" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sustainability.gif" translatesAutoresizingMaskIntoConstraints="NO" id="1fW-XQ-PlB">
+                                <rect key="frame" x="101" y="599" width="262" height="158"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.90443021059999995" green="0.90720593930000004" blue="0.87531071900000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="5kJ-Et-tPW"/>
@@ -189,6 +189,7 @@
         <!--Third Table View Controller-->
         <scene sceneID="U1Q-cI-pbA">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Gx-rd-kka" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="cw6-ph-3JX" customClass="thirdTableViewController" customModule="SustainableMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wFC-Zi-gxH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -210,23 +211,18 @@
                                     <navigationItem title="Sustainable-ME" id="Fm5-xO-cjv"/>
                                 </items>
                             </navigationBar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dgH-Ky-g2u">
-                                <rect key="frame" x="87" y="279" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                            </tableView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Of0-io-IOs"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7Gx-rd-kka" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-498.55072463768118" y="900.66964285714278"/>
         </scene>
         <!--My Habits-->
         <scene sceneID="dKs-Mb-VlU">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eCL-rh-dmz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tableViewController id="tMK-OT-tLl" customClass="fourthTableViewController" customModule="SustainableMe" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="2QZ-Fa-eDa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -261,7 +257,6 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="My Habits" id="Eov-8B-PxM"/>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eCL-rh-dmz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="360.86956521739131" y="901.33928571428567"/>
         </scene>
