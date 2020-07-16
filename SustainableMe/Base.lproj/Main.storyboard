@@ -189,7 +189,6 @@
         <!--Third Table View Controller-->
         <scene sceneID="U1Q-cI-pbA">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7Gx-rd-kka" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="cw6-ph-3JX" customClass="thirdTableViewController" customModule="SustainableMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wFC-Zi-gxH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -216,13 +215,13 @@
                         <viewLayoutGuide key="safeArea" id="Of0-io-IOs"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Gx-rd-kka" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-498.55072463768118" y="900.66964285714278"/>
         </scene>
         <!--My Habits-->
         <scene sceneID="dKs-Mb-VlU">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eCL-rh-dmz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tableViewController id="tMK-OT-tLl" customClass="fourthTableViewController" customModule="SustainableMe" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="2QZ-Fa-eDa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -257,6 +256,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="My Habits" id="Eov-8B-PxM"/>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eCL-rh-dmz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="360.86956521739131" y="901.33928571428567"/>
         </scene>
