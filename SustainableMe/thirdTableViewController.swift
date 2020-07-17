@@ -9,9 +9,22 @@
 import UIKit
 
 class thirdTableViewController: UIViewController {
-
+    
+    var habits : HabitData!
+    
+    
+    @IBOutlet weak var waterLabel: UILabel!
+    
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        waterLabel.text = habits.habitList[0]
+        
+        print(habits.habitList)
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false

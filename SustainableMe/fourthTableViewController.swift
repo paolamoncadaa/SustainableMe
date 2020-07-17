@@ -10,48 +10,45 @@ import UIKit
 
 class fourthTableViewController: UITableViewController {
     
-    @IBAction func saveWaterTapped(_ sender: UISwitch) {
-    }
+    var habits : HabitData!
     
-    @IBAction func commuteTapped(_ sender: UISwitch) {
-    }
     
-    @IBAction func localFoodtapped(_ sender: UISwitch) {
-    }
+    @IBOutlet weak var waterOne: UISwitch!
     
-    @IBAction func bigLoadTapped(_ sender: UISwitch) {
-    }
+    @IBOutlet weak var commuteTwo: UISwitch!
     
-    @IBAction func cookTapped(_ sender: UISwitch) {
-    }
-    @IBAction func showerTapped(_ sender: UISwitch) {
-    }
+    @IBOutlet weak var purchaseThree: UISwitch!
     
-    @IBAction func carpoolTapped(_ sender: UISwitch) {
-    }
+    @IBOutlet weak var washFour: UISwitch!
     
-    @IBAction func lightsTapped(_ sender: UISwitch) {
-    }
-    
-    @IBAction func paperNotesTapped(_ sender: UISwitch) {
-    }
-    
-    @IBAction func waterBottleTapped(_ sender: UISwitch) {
-    }
-    
-    @IBAction func reusableBagTapped(_ sender: UISwitch) {
-    }
-    
-    @IBAction func airLaundryTapped(_ sender: UISwitch) {
-    }
     
     
     @IBAction func doneButtonTapped(_ sender: UIBarButtonItem) {
+        
+        performSegue(withIdentifier: "segueToList", sender: self)
+        
+    }
+   
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let secondScreen = segue.destination as? thirdTableViewController
+        {
+            secondScreen.habits = habits
+            
+        }
+        
+        if waterOne.isOn == true {
+            habits.habitList.append("Turn off the water when brushing your teeth")
+        }
+        
     }
     
+    
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        habits = HabitData()
 
     }
 

@@ -14,7 +14,8 @@
 		0702172824C0120D008EEC54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0702172724C0120D008EEC54 /* Assets.xcassets */; };
 		0702172A24C013E6008EEC54 /* gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0702172924C013E6008EEC54 /* gif.swift */; };
 		0702172C24C015DB008EEC54 /* sustainability.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0702172B24C015DA008EEC54 /* sustainability.gif */; };
-		0702172E24C0B280008EEC54 /* SustainableMe in Resources */ = {isa = PBXBuildFile; fileRef = 0702172D24C0B27F008EEC54 /* SustainableMe */; };
+		0702173024C0F8A4008EEC54 /* habitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0702172F24C0F8A3008EEC54 /* habitData.swift */; };
+		0702173224C10CA2008EEC54 /* trialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0702173124C10CA2008EEC54 /* trialViewController.swift */; };
 		4F419E8024BF4B3A00D38D6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F419E7F24BF4B3A00D38D6A /* AppDelegate.swift */; };
 		4F419E8224BF4B3A00D38D6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F419E8124BF4B3A00D38D6A /* SceneDelegate.swift */; };
 		4F419E8724BF4B3A00D38D6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F419E8524BF4B3A00D38D6A /* Main.storyboard */; };
@@ -49,7 +50,8 @@
 		0702172724C0120D008EEC54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Desktop/SEGUES/SEGUES/Assets.xcassets; sourceTree = "<group>"; };
 		0702172924C013E6008EEC54 /* gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gif.swift; sourceTree = "<group>"; };
 		0702172B24C015DA008EEC54 /* sustainability.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sustainability.gif; sourceTree = "<group>"; };
-		0702172D24C0B27F008EEC54 /* SustainableMe */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SustainableMe; sourceTree = "<group>"; };
+		0702172F24C0F8A3008EEC54 /* habitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = habitData.swift; sourceTree = "<group>"; };
+		0702173124C10CA2008EEC54 /* trialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trialViewController.swift; sourceTree = "<group>"; };
 		4F419E7C24BF4B3A00D38D6A /* SustainableMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SustainableMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F419E7F24BF4B3A00D38D6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F419E8124BF4B3A00D38D6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,7 +119,6 @@
 				4F419E8124BF4B3A00D38D6A /* SceneDelegate.swift */,
 				4F419E8524BF4B3A00D38D6A /* Main.storyboard */,
 				0702172724C0120D008EEC54 /* Assets.xcassets */,
-				0702172D24C0B27F008EEC54 /* SustainableMe */,
 				4F419E8D24BF4B3E00D38D6A /* LaunchScreen.storyboard */,
 				4F419E9024BF4B3E00D38D6A /* Info.plist */,
 				4F419E8824BF4B3A00D38D6A /* SustainableMe.xcdatamodeld */,
@@ -127,6 +128,8 @@
 				0702172124BFFD84008EEC54 /* fourthTableViewController.swift */,
 				0702172924C013E6008EEC54 /* gif.swift */,
 				0702172B24C015DA008EEC54 /* sustainability.gif */,
+				0702172F24C0F8A3008EEC54 /* habitData.swift */,
+				0702173124C10CA2008EEC54 /* trialViewController.swift */,
 			);
 			path = SustainableMe;
 			sourceTree = "<group>";
@@ -254,7 +257,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F419E8F24BF4B3E00D38D6A /* LaunchScreen.storyboard in Resources */,
-				0702172E24C0B280008EEC54 /* SustainableMe in Resources */,
 				0702172824C0120D008EEC54 /* Assets.xcassets in Resources */,
 				4F419E8724BF4B3A00D38D6A /* Main.storyboard in Resources */,
 				0702172C24C015DB008EEC54 /* sustainability.gif in Resources */,
@@ -285,8 +287,10 @@
 				4F419E8024BF4B3A00D38D6A /* AppDelegate.swift in Sources */,
 				0702172A24C013E6008EEC54 /* gif.swift in Sources */,
 				0702172224BFFD84008EEC54 /* fourthTableViewController.swift in Sources */,
+				0702173224C10CA2008EEC54 /* trialViewController.swift in Sources */,
 				0702172024BFFD61008EEC54 /* thirdTableViewController.swift in Sources */,
 				0702171C24BFFC2A008EEC54 /* firstTableViewController.swift in Sources */,
+				0702173024C0F8A4008EEC54 /* habitData.swift in Sources */,
 				4F419E8224BF4B3A00D38D6A /* SceneDelegate.swift in Sources */,
 				0702171E24BFFD3E008EEC54 /* secondTableViewController.swift in Sources */,
 				4F419E8A24BF4B3A00D38D6A /* SustainableMe.xcdatamodeld in Sources */,
